@@ -1,77 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="style.css" rel="stylesheet"/>
-    <title>Mon Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cours 6ème - Nombre Entier et Opération</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Mon Site</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Accueil</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Cours
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="cours_3eme.html">Cours 3ème</a>
-                    <a class="dropdown-item" href="cours_4eme.html">Cours 4ème</a>
-                    <a class="dropdown-item" href="cours_5eme.html">Cours 5ème</a>
-                    <a class="dropdown-item" href="cours_6eme/index.html">Cours 6ème</a> <!-- Lien corrigé -->
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Exercices
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                    <a class="dropdown-item" href="exercice_3eme.html">Exercice 3ème</a>
-                    <a class="dropdown-item" href="exercice_4eme.html">Exercice 4ème</a>
-                    <a class="dropdown-item" href="exercice_5eme.html">Exercice 5ème</a>
-                    <a class="dropdown-item" href="exercice_6eme/index.html">Exercice 6ème</a> <!-- Lien corrigé -->
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    S'entraîner
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="entrainer_3eme.html">S'entraîner 3ème</a>
-                    <a class="dropdown-item" href="entrainer_4eme.html">S'entraîner 4ème</a>
-                    <a class="dropdown-item" href="entrainer_5eme.html">S'entraîner 5ème</a>
-                    <a class="dropdown-item" href="entrainer_6eme.html">S'entraîner 6ème</a>
-                </div>
-            </li>
+    <header>
+        <h1>Cours 6ème - Nombre Entier et Opération</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#method">Méthode</a></li>
+            <li><a href="#properties">Propriétés</a></li>
+            <li><a href="#examples">Exemples</a></li>
+            <li><a href="#exercises">Exercices</a></li>
         </ul>
-        <form class="form-inline my-2 my-lg-0 ml-auto">
-            <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-        </form>
-    </div>
-</nav>
-<div class="container mt-5">
-    <div class="header-title">Bienvenue sur Mon Site</div>
-    <p class="lead">Votre ressource ultime pour apprendre et s'exercer.</p>
-    <div class="text-center">
-        <img src="triangle.png" alt="Triangle" class="img-fluid mb-4" style="max-width: 300px;">
-        <button class="btn btn-primary" onclick="vérifierPythagore()">Vérifier Pythagore</button>
-    </div>
-</div>
-<footer class="text-center mt-5">
-    &copy; 2023 Mon Site. Tous droits réservés.
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+    </nav>
+    <section id="method">
+        <h2>Méthode</h2>
+        <p>Les nombres que l'on additionne s'appellent les termes. Le résultat d'une addition s'appelle la somme.</p>
+        <p>Dans une addition, on a le droit de regrouper ou changer des termes de place.</p>
+        <p>Exemple : 46 + 37 + 54 + 63 = (46 + 54) + (37 + 63) = 200</p>
+        <p>Les nombres que l'on soustrait s'appellent les termes. Le résultat d'une soustraction s'appelle la différence.</p>
+    </section>
+    <section id="properties">
+        <h2>Propriétés</h2>
+        <p>Dans une addition ou une soustraction, on peut utiliser la propriété commutative et associative pour regrouper les termes de manière plus pratique.</p>
+        <p>Exemple : 4 × (56 × 25) = (4 × 25) × 56 = 100 × 56 = 5 600</p>
+        <p>Les multiplications sont prioritaires sur les additions et les soustractions.</p>
+    </section>
+    <section id="examples">
+        <h2>Exemples</h2>
+        <p>3 + 5 × 8 = 3 + 40 = 43 (La multiplication est prioritaire sur l'addition.)</p>
+        <p>(3 + 5) × 8 = 8 × 8 = 64 (Le calcul entre parenthèses est prioritaire.)</p>
+    </section>
+    <section id="exercises">
+        <h2>Exercices</h2>
+        <div class="exercise">
+            <h3>Exercice 1</h3>
+            <p>Calcule les sommes suivantes:</p>
+            <ul>
+                <li>1 2 3 + 5 6 4 = ?</li>
+                <li>8 2 9 + 5 6 2 = ?</li>
+                <li>7 8 2 + 1 9 1 = ?</li>
+            </ul>
+        </div>
+        <div class="exercise">
+            <h3>Exercice 2</h3>
+            <p>Complète les cases par le chiffre qui convient:</p>
+            <ul>
+                <li>4 2 + 3 7 = ?</li>
+                <li>4 5 + 7 2 = ?</li>
+            </ul>
+        </div>
+        <div class="exercise">
+            <h3>Exercice 3</h3>
+            <p>Calcule les différences suivantes:</p>
+            <ul>
+                <li>6 2 3 - 5 1 2 = ?</li>
+                <li>9 1 6 - 7 2 5 = ?</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
